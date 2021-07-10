@@ -1,0 +1,40 @@
+
+
+# ASPIRE Mini app API
+
+## Prerequisites
+
+1. Composer 
+2. PHP 7+
+
+
+## Setup
+
+1. Clone This Repo
+2. composer install
+3. Set `DB_DATABASE=`, `DB_PORT=`  in `.env`
+4. php artisan migrate
+5. php artisan passport:install
+6. Now open storage/oauth-private.key and open storage/oauth-public.key and pasted it in `.env` as below
+PASSPORT_PRIVATE_KEY="-----BEGIN RSA PRIVATE KEY-----
+<private key here>
+-----END RSA PRIVATE KEY-----"
+PASSPORT_PUBLIC_KEY="-----BEGIN PUBLIC KEY-----
+<public key here>
+-----END PUBLIC KEY-----"
+
+6. Check .env.sample for reference
+
+
+
+```
+
+## Tests
+
+Testing is done using the built in Laravel Testing Suite, which is built on top of PHPUnit:
+
+* https://laravel.com/docs/7.x/testing
+* https://laravel.com/docs/7.x/http-tests
+
+* Run `php artisan test` to execute full test suite
+
