@@ -1,6 +1,6 @@
 
 
-# ASPIRE Mini app API
+# Aspire mini app API
 
 ## Prerequisites
 
@@ -11,7 +11,7 @@
 ## Setup
 
 1. Clone This Repo
-2. composer install
+2. `composer install`
 3. Set `DB_DATABASE=`, `DB_PORT=`  in `.env`
 4. `php artisan migrate`
 5. `php artisan passport:install`
@@ -24,7 +24,7 @@
 <public key here>
 -----END PUBLIC KEY-----"`
 
-7. Check ..env_sample for reference
+7. Check .env_sample for reference
 
 
 
