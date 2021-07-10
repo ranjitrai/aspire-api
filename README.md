@@ -13,17 +13,18 @@
 1. Clone This Repo
 2. composer install
 3. Set `DB_DATABASE=`, `DB_PORT=`  in `.env`
-4. php artisan migrate
-5. php artisan passport:install
-6. Now open storage/oauth-private.key and open storage/oauth-public.key and pasted it in `.env` as below
-PASSPORT_PRIVATE_KEY="-----BEGIN RSA PRIVATE KEY-----
+4. `php artisan migrate`
+5. `php artisan passport:install`
+6. Now open `storage/oauth-private.key` and open `storage/oauth-public.key` and pasted it in `.env` as below
+`PASSPORT_PRIVATE_KEY="-----BEGIN RSA PRIVATE KEY-----
 <private key here>
------END RSA PRIVATE KEY-----"
-PASSPORT_PUBLIC_KEY="-----BEGIN PUBLIC KEY-----
-<public key here>
------END PUBLIC KEY-----"
+-----END RSA PRIVATE KEY-----"`
 
-6. Check .env.sample for reference
+`PASSPORT_PUBLIC_KEY="-----BEGIN PUBLIC KEY-----
+<public key here>
+-----END PUBLIC KEY-----"`
+
+7. Check ..env_sample for reference
 
 
 
