@@ -18,9 +18,9 @@
 5. `php artisan passport:install`
 6. Now open `storage/oauth-private.key` and open `storage/oauth-public.key` and pasted it in `.env` as below
 
-`PASSPORT_PRIVATE_KEY=" content of oauth-private.key"`
+`PASSPORT_PRIVATE_KEY="content of oauth-private.key"`
 
-`PASSPORT_PUBLIC_KEY="oauth-public.key"`
+`PASSPORT_PUBLIC_KEY="content of oauth-public.key"`
 
 7. Check .env_sample for reference
 8. run `php artisan serve`
