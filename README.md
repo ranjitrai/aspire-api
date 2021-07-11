@@ -12,6 +12,7 @@
 
 1. Clone This Repo
 2. `composer install`
+3. Create database with name `aspire` in `localhost/phpmyadmin`
 3. Set `DB_DATABASE=`, `DB_PORT=`  in `.env`
 4. `php artisan migrate`
 5. `php artisan passport:install`
@@ -25,6 +26,15 @@
 -----END PUBLIC KEY-----"`
 
 7. Check .env_sample for reference
+8. run `php artisan serve`
+
+9. Check the endpoint in postman
+ http://127.0.0.1:8000/api/register (name,email,password)
+ http://127.0.0.1:8000/api/login (email,password)
+ http://127.0.0.1:8000/api/apply-loan (amount,term)
+ http://127.0.0.1:8000/api/accept-loan (loan_id)
+ http://127.0.0.1:8000/api/loan-repayment-amount/1
+ http://127.0.0.1:8000/api/loan-repayment (loan_id,amount)
 
 
 

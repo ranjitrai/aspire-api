@@ -35,13 +35,13 @@ class LoginUserTest extends TestCase
     }
 
     /**
-     * login api validation test.
+     * login api test.
      *
      */
     public function test_it_for_user_login()
     {       
             $user = \App\User::create([
-                'email' => 'ranjit@example.com', // validation test
+                'email' => 'ranjit@example.com',
                 'name' => 'ranjit',
                 'password' => bcrypt('123456789qq')
             ]);
