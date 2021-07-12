@@ -16,7 +16,7 @@ class RegisterUserTest extends TestCase
     }
 
     /**
-     * login api validation test.
+     * Register api validation test.
      *
      */
     public function test_it_validates_input_for_register_user()
@@ -36,7 +36,7 @@ class RegisterUserTest extends TestCase
     }
 
     /**
-     * login api validation test.
+     * Register api test.
      *
      */
     public function test_it_for_user_register()
